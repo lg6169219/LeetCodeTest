@@ -36,5 +36,23 @@
     <ClCompile Include="20.有效的括号.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="739.每日温度.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="150.逆波兰表达式求值.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="133.克隆图---.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="94.二叉树的中序遍历.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="232.用栈实现队列.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="225.用队列实现栈.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

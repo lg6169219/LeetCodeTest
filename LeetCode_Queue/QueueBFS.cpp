@@ -19,6 +19,26 @@ void dfs(int v)
 			dfs(*it);
 }
 
+/*
+int search(int t)
+{
+	if(满足输出条件)
+	{
+		输出解;
+	}
+	else
+	{
+		for(int i=1;i<=尝试方法数;i++)
+			if(满足进一步搜索条件)
+			{
+				为进一步搜索所需要的状态打上标记;
+				search(t+1);
+				恢复到打标记前的状态;//也就是说的{回溯一步}
+			}
+	}
+}
+*/
+
 void bfs(int v)
 {
 	list<int>::iterator it;

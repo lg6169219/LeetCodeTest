@@ -77,11 +77,17 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="1.两数之和.cpp" />
+    <ClCompile Include="133.克隆图---.cpp" />
+    <ClCompile Include="150.逆波兰表达式求值.cpp" />
     <ClCompile Include="155.最小栈.cpp" />
     <ClCompile Include="2.两数相加.cpp" />
     <ClCompile Include="20.有效的括号.cpp" />
     <ClCompile Include="200.岛屿数量.cpp" />
+    <ClCompile Include="225.用队列实现栈.cpp" />
+    <ClCompile Include="232.用栈实现队列.cpp" />
+    <ClCompile Include="739.每日温度.cpp" />
     <ClCompile Include="752.打开转盘锁.cpp" />
+    <ClCompile Include="94.二叉树的中序遍历.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
