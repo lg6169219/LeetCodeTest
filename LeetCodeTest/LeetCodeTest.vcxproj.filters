@@ -54,5 +54,11 @@
     <ClCompile Include="225.用队列实现栈.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="394.字符串解码.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="733.图像渲染.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
