@@ -60,5 +60,20 @@
     <ClCompile Include="733.图像渲染.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="724.寻找数组的中心索引.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="747.至少是其他数字两倍的最大数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="66.加一.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="498.对角线遍历.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="54.螺旋矩阵.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
