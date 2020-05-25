@@ -80,6 +80,7 @@
     <ClCompile Include="Queue.cpp" />
     <ClCompile Include="QueueBFS.cpp" />
     <ClCompile Include="Stack.cpp" />
+    <ClCompile Include="String.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -75,7 +75,7 @@ void bfs(int v)
 
 最后一个8用来标识这个节点输入结束。可以得到深搜和广搜的结果。*/
 /************************************************************************/
-int main()
+int main_bfs()
 {
 	//freopen("in.txt", "r", stdin);
 	cout << "input the vertex num:"<< endl;

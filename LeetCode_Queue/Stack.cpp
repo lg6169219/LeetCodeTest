@@ -10,7 +10,7 @@ private:
 	vector<int> data;
 public:
 	void push(int x){
-		data.insert(x);
+		data.push_back(x);
 	}
 
 	bool isEmpty(){
