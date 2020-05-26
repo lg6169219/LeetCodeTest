@@ -102,7 +102,22 @@
     <ClCompile Include="485.最大连续1的个数.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="209.长度最小的子数组.cpp">
+    <ClCompile Include="209.长度最小的子数组----.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="189.旋转数组.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="119.杨辉三角 II.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="151.翻转字符串里的单词.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="557.反转字符串中的单词 III.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="26.删除排序数组中的重复项.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
