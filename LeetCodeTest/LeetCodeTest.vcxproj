@@ -81,6 +81,7 @@
     <ClCompile Include="119.杨辉三角 II.cpp" />
     <ClCompile Include="133.克隆图---.cpp" />
     <ClCompile Include="14.最长公共前缀.cpp" />
+    <ClCompile Include="141.环形链表.cpp" />
     <ClCompile Include="150.逆波兰表达式求值.cpp" />
     <ClCompile Include="151.翻转字符串里的单词.cpp" />
     <ClCompile Include="155.最小栈.cpp" />
@@ -95,6 +96,7 @@
     <ClCompile Include="26.删除排序数组中的重复项.cpp" />
     <ClCompile Include="27.移除元素.cpp" />
     <ClCompile Include="28.实现 strStr().cpp" />
+    <ClCompile Include="283.移动零.cpp" />
     <ClCompile Include="344.反转字符串.cpp" />
     <ClCompile Include="394.字符串解码.cpp" />
     <ClCompile Include="485.最大连续1的个数.cpp" />
@@ -104,6 +106,7 @@
     <ClCompile Include="561.数组拆分 I.cpp" />
     <ClCompile Include="66.加一.cpp" />
     <ClCompile Include="67.二进制求和.cpp" />
+    <ClCompile Include="707.设计链表.cpp" />
     <ClCompile Include="724.寻找数组的中心索引.cpp" />
     <ClCompile Include="733.图像渲染.cpp" />
     <ClCompile Include="739.每日温度.cpp" />
