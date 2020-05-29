@@ -138,7 +138,16 @@
     <ClCompile Include="19.删除链表的倒数第N个节点.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="206.反转链表.cpp">
+    <ClCompile Include="203.移除链表元素.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="328.奇偶链表.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="234.回文链表.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="206.反转链表---.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
