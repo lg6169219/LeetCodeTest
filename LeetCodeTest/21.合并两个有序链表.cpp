@@ -9,7 +9,9 @@
  输出：1->1->2->3->4->4
 
 思路
-	1、暴力解法 创建一个新的头节点，pre执行这个头结点，每次从l1 l2中找出最小值pre.next =  最小值 pre = pre.next
+	1、用c++的stl 将链表变成数组
+	2、暴力解法 创建一个新的头节点，pre执行这个头结点，每次从l1 l2中找出最小值pre.next =  最小值 pre = pre.next
+	3、递归
 */
 
 #include <iostream>
@@ -28,58 +30,48 @@ public:
 		if (l1 == NULL)
 		{
 			return l2;
-		}
-		if (l2 == NULL)
+		}else if (l2 == NULL)
 		{
 			return l1;
 		}
 
+		ListNode *preHead = new ListNode(-1);
 
-		// 新的伪节点
-		ListNode *temp1 = new ListNode;
-		ListNode *pre = temp1;
+		ListNode *pre = preHead;
 
-
-		ListNode *temp2 = new ListNode;
-		temp1->next = l1;
-		temp2->next = l2;
-
-		ListNode *pre1 = temp1, *pre2 = temp2 ;
-		ListNode *cur1 = l1, *cur2 = l2;
-		// 把cur2插入到cur1
-		while (cur2 && cur1)
+		while (l1 && l2)
 		{
-			if (cur2->val <= cur1->val)
-			{
-				pre2->next = cur2->next;
-
-				cur2->next = cur1;
-				pre1->next = cur2;
-				pre1 = cur2;
+			if(l1->val < l2->val){
+				pre->next = l1;
+				l1 = l1->next;
 			}else{
-				pre1 = cur1;
-				cur1 = cur1->next;
+				pre->next = l2;
+				l2 = l2->next;
 			}
-			cur2 = cur2->next;
+			pre = pre->next;
 		}
 
-		if (cur2)
-		{
-			cur1->next = cur2;
-			pre2->next = NULL;
-		}
+		 // 合并后 l1 和 l2 最多只有一个还未被合并完，我们直接将链表末尾指向未合并完的链表即可
+		pre->next = l1 ? l1 : l2;
 
-		ListNode *ret = temp1->next;
-		delete temp1;
-		delete temp2;
+		ListNode *ret = preHead->next;
+		delete preHead;
 		return ret;
 	}
+
+	ListNode* mergeTwoLists_1(ListNode* l1, ListNode* l2) {
+		if (l1 == NULL)
+		{
+			return l2;
+		}else if (l2 == NULL)
+		{
+			return l1;
+		}else if(l1->val < l2->val){
+			l1->next = mergeTwoLists_1(l1->next, l2);
+			return l1;
+		}else{
+			l2->next = mergeTwoLists_1(l2->next, l1);
+			return l2;
+		}	
+	}
 };
-
-
-int main(){
-	ListNode *l1{1, 2, 4};
-	ListNode *l2{1, 3, 4};
-
-	return 0;
-}
