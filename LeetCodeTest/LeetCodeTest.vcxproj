@@ -96,6 +96,7 @@
     <ClCompile Include="203.移除链表元素.cpp" />
     <ClCompile Include="206.反转链表---.cpp" />
     <ClCompile Include="209.长度最小的子数组----.cpp" />
+    <ClCompile Include="21.合并两个有序链表.cpp" />
     <ClCompile Include="225.用队列实现栈.cpp" />
     <ClCompile Include="232.用栈实现队列.cpp" />
     <ClCompile Include="234.回文链表.cpp" />
